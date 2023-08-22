@@ -1,6 +1,6 @@
 # TODO
 - [ ] 영상 촬영 + json 저장
-- [x] 영상에서 프레임 추출, 크기 정규화  
+- [x] 영상에서 프레임 추출, 크기 정규화. 4초 영상 기준 5frame 씩 묶으면 len(sequencedata) = 30 정도 
   ex) videodata/(backward, slide, swing, sit, walk, standing, lie)/backward001.mp4
 - [x] json to csv. 
 - [ ] 7 가지 pose 에 대해 20번 정도 sequence 별로 skeleton data 저장된 csv 파일 생성
