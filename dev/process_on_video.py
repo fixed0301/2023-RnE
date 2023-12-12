@@ -3,6 +3,8 @@ import torch
 import numpy as np
 import mediapipe as mp
 from torch.utils.data import DataLoader
+from dev.classes import
+
 mp_pose = mp.solutions.pose
 pose = mp_pose.Pose(static_image_mode=True, model_complexity=1, min_detection_confidence=0.7, min_tracking_confidence=0.5)
 
