@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/2023-RnE-main.iml" filepath="$PROJECT_DIR$/.idea/2023-RnE-main.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/2023-RnE.iml" filepath="$PROJECT_DIR$/.idea/2023-RnE.iml" />
+>>>>>>> e27158fc5c4241c805d5e4b268f7e3388188ef4c
     </modules>
   </component>
 </project>
