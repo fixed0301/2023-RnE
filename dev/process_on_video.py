@@ -3,7 +3,7 @@ import torch
 import numpy as np
 import mediapipe as mp
 from torch.utils.data import DataLoader
-from dev.classes import
+from dev.classes import MyDataset, Model
 
 mp_pose = mp.solutions.pose
 pose = mp_pose.Pose(static_image_mode=True, model_complexity=1, min_detection_confidence=0.7, min_tracking_confidence=0.5)
@@ -69,7 +69,7 @@ def process_clicked_area(img, clicked_point):
                 xy_list_list = []
                 for data, label in dataset:
                     with torch.no_grad():
-                        result = model(data) # 동작 분류 결과
+                        result = Model(data) # 동작 분류 결과
                         _, out = torch.max(result, 1)
 
                         if out.item() == 0:
