@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Black">
+<<<<<<< HEAD
+    <option name="sdkName" value="py39" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="py39" project-jdk-type="Python SDK" />
+  <component name="PyCharmDSProjectLayout">
+    <option name="id" value="JupyterRightHiddenStructureLayout" />
+  </component>
+  <component name="PyCharmProfessionalAdvertiser">
+    <option name="shown" value="true" />
+  </component>
+=======
     <option name="sdkName" value="C:\Users\Administrator\anaconda3" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="C:\Users\Administrator\anaconda3" project-jdk-type="Python SDK" />
   <component name="PyCharmDSProjectLayout">
     <option name="id" value="JupyterRightHiddenStructureLayout" />
   </component>
+>>>>>>> e27158fc5c4241c805d5e4b268f7e3388188ef4c
 </project>
