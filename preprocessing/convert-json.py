@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import csv
 import cv2
 import glob

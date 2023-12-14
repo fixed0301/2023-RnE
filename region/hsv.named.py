@@ -44,7 +44,7 @@ def process_clicked_area():
 #초기 입력값
 clicked_point = None
 selected_area_name = ""
-image = cv2.imread('test1.jpg') 
+image = cv2.imread(r"C:\Users\USER\Pictures\Screenshots\asdf.png")
 saved_areas = {}
 
 cv2.namedWindow('Image')
@@ -61,3 +61,4 @@ cv2.destroyAllWindows()
 # 저장된 영역과 좌표 출력
 for area_name, area_info in saved_areas.items():
     print(f"영역명: {area_name}, 좌표: {area_info['coordinates']}")
+#%%

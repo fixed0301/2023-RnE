@@ -20,7 +20,6 @@ class MyDataset(Dataset):
         return len(self.x)
 
 
-
 class Model(nn.Module):
     def __init__(self):
         super(Model, self).__init__()
@@ -47,3 +46,8 @@ class Model(nn.Module):
         x, _ = self.lstm7(x)
         x = self.fc(x[:, -1, :])
         return x
+
+def load_model(model, filepath):
+    model.load_state_dict(torch.load(filepath))
+    model.eval()
+    return model
