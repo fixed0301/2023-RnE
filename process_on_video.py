@@ -7,12 +7,10 @@ import torch.nn as nn
 from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 
-#from dev.alarm import Msg_bot
-
 status = 'None'
 status_2 = 'None'
 
-SLACK_TOKEN = 'xoxb-2329005458561-6373017132624-CeMoyUf0PonwxztN0AyUgQ5F'
+SLACK_TOKEN = 'xoxb-2329005458561-6373017132624-jlv24W6fJDFspZbGFM9XUTD2'
 SLACK_CHANNEL = '19rne'
 
 
@@ -153,7 +151,7 @@ cnt=0
 saved_areas = {}
 
 #model_path = r"C:\Users\USER\Desktop\19rne\2023-RnE-main\save_by_loss\model_noswing_loss.pth"
-video_path = r"C:\Users\USER\Desktop\video-1\swing_1.mp4"
+video_path = r"C:\Users\USER\Desktop\video-2\20230905_162820.mp4"
 
 model = Model()
 #model.load_state_dict(torch.load(model_path))
@@ -163,7 +161,7 @@ cap = cv2.VideoCapture(video_path)
 ret, first_img = cap.read()
 cv2.namedWindow('First Image')
 
-capp = cv2.VideoWriter('test vid', cv2.VideoWriter_fourcc(*'DIVX'), cap.get(cv2.CAP_PROP_FPS), (400, 700))
+capp = cv2.VideoWriter('test vid.mp4', cv2.VideoWriter_fourcc(*'DIVX'), cap.get(cv2.CAP_PROP_FPS), (400, 700))
 
 
 while True:
