@@ -17,3 +17,7 @@ chat = {'backward' : '미끄럼틀을 역행하고 있습니다.',
         'swing' : '그네를 타고 있습니다.',
         'walk' : '걷고 있습니다.',
         'collision' : '충돌 위험이 있습니다'} # 1p : swing / slide, 2p : any
+
+Msg_bot('sit')
+
+#%%
